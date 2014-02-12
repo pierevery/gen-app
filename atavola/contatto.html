@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>Ristorante a Tavola</title> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0;"  />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<link rel="stylesheet" href="css/jquery.mobile-1.0.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body> 
+		<div data-role="page" class="page contact-form">
+			<div data-role="header" class="interno">
+				<a href="index.html" data-icon="arrow-l" data-direction="reverse">Back</a>
+				<a href="index.html" data-icon="home" data-direction="reverse">Home</a>
+				<h1>Contattaci</h1>
+			</div><!--/header-->
+			
+			<div data-role="content" id="personal-contact">
+				<h3><em>Informazioni o Prenotazioni...Scrivici...</em></h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<hr/>
+					<div id="contact-form-wrapper">
+						<form action="" method="post" id="contact-form">
+							<div data-role="fieldcontain" class="ui-hide-label no-field-separator">
+								<label for="name">Nome*</label>
+							    <input type="text" id="name" name="name" placeholder="Nome*" class="required" />
+							</div>
+							<div data-role="fieldcontain" class="ui-hide-label no-field-separator">	
+								<label for="email">Email*</label>
+							    <input type="email" id="email" name="email" placeholder="Email*" class="email required"/>
+							</div>
+							<div data-role="fieldcontain" class="ui-hide-label no-field-separator">	
+								<label for="message">Message*</label>
+								<textarea name="textarea" id="message" placeholder="Messaggio*" class="required"></textarea>
+							</div>
+								<button type="submit" id="submit" data-theme="a">Invia Messaggio</button>
+						</form>
+					</div>
+					<div id="contact-form-success"></div>
+					
+			    	<div class="social-icons">
+			    		<ul>
+			    			<li><a href="#"><img src="img/social_icons/facebook-logo-square.png" alt="facebook"/></a></li>
+			    			
+			    		</ul>
+			    	</div><!--/social-icons-->
+			</div><!-- /content -->
+		 <div data-role="content" align="center" style="font-size:small">
+                   RISTORANTE OSTERIA ROMANA<br>
+Via San Paolo alla Regola, 29/31 - Roma - Tel 06.68.619.17<br>
+Centro Storico Roma - (Piazza Navona - Campo de' Fiori - Ponte Sisto)<br>
+Cucina Romana e Specialit&agrave; di Pesce<br><br>
+
+ P.I. 06029801005
+          </div> 
+          
+          </div><!-- /page -->
+	 
+		
+	</body>
+</html>
+<!-- Localized -->
